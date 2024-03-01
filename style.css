@@ -1,0 +1,113 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .font-lato {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Variabili Hex Colore */
+  :root {
+    --det-color: #870D0D;
+    --sec-color: #6D535C;
+    --acc-color: #E9B253;
+  }
+  
+  /* Colore testo */
+  .tx-1 {
+    color: var(--det-color);
+  }
+  
+  .tx-2 {
+    color: var(--sec-color);
+  } 
+  
+  .tx-acc {
+    color: var(--acc-color);
+  } 
+  
+  /* Colore Background */
+  
+  .bg-1 {
+    background-color: var(--det-color) !important;
+  }
+  
+  .bg-2 {
+    background-color: var(--sec-color) !important;
+  }
+  
+  .bg-acc {
+    background-color: var(--acc-color) !important;
+  }
+
+  /* Bordi */
+.borde-1 {
+    border-bottom: 4px solid var(--det-color) !important;
+  }
+  
+  .borde-2 {
+    border-bottom: 4px solid var(--sec-color) !important;
+  }
+  
+  .borde-acc {
+    border-bottom: 4px solid var(--acc-color) !important;
+  }
+
+  .logo_nav {
+    width: 50px;
+  }
+
+  .logo_accedi {
+    width: 30px;
+  }
+
+  .materiali-sticky {
+    position: sticky;
+    top: 150px;
+  }
+
+  .cedro_img {
+    height: 306px;
+  }
+
+  .hero {
+    background-image: url(./asset/foto\ chitarra\ header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    opacity: 0.1;
+    height: 90vh;
+    display: flex;
+    z-index: 0;
+    position: relative;
+  }
+
+  .titolo_sito {
+    color: var(--det-color);
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 250px;
+    text-shadow: 5px 5px 8px var(--sec-color);
+  }
+
+  .overlay {
+    z-index: 1;
+    position: absolute;
+  }
+
+  .design-underline {
+    position: relative;
+  }
+  
+  .design-underline::after {
+    position: absolute;
+    content: '';
+    bottom: -10%;
+    left: 0%;
+    width: 30%;
+    height: 10%;
+    background-color: var(--det-color);
+  }
+
+  
+  
